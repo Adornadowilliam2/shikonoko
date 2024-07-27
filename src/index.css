@@ -1,0 +1,64 @@
+/* * {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+fieldset {
+  border: 5px solid black;
+  padding: 10px;
+  width: 100%;
+  margin: 10px;
+  margin-inline: auto;
+}
+legend {
+  font-size: 30px;
+}
+
+
+
+
+*/
+.hungerbar {
+    width: 30%;
+    height: 5vh;
+    background-color: green;
+  }
+  .happiness,
+  .energy,
+  .hunger {
+    border: 2px solid black;
+    height: 5vh;
+    width: 90%;
+    margin-inline: auto;
+    margin: 10px;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: beige;
+    font-family: "Pixelify Sans", sans-serif;
+  }
+  fieldset {
+    background-color: aliceblue;
+  }
+  button {
+    background-color: rgb(10, 68, 194);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .btn {
+    display: flex;
+    justify-content: space-around;
+  }
+  button:hover {
+    background-color: seagreen;
+  }
+  
