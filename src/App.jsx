@@ -51,7 +51,7 @@ function App() {
 
   return (
     <>
-      <fieldset>
+      <fieldset style={{ padding: "10px" }}>
         <legend>
           Pet Name: <strong>Shikonokonoko</strong>
         </legend>
